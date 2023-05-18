@@ -1,0 +1,7 @@
+server:
+  port: 8001
+
+spring:
+  kafka:
+#    bootstrap-servers: "10.118.130.74:9092"
+    bootstrap-servers: "localhost:9092"

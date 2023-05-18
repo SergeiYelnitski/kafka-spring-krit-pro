@@ -1,0 +1,15 @@
+server:
+  port: 8002
+
+application:
+  kafka:
+    topic: "topic-1"
+
+
+spring:
+  kafka:
+    consumer:
+      group-id: "group-1"
+      bootstrap-servers: "localhost:9092"
+      client-id: "consumer-1-topic-1"
+      auto-offset-reset: earliest
